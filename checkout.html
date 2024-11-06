@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link  href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link  href="assets/icons/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">ASUS Store Checkout</h2>
+      
+      <!-- Checkout Form -->
+      <div class="row">
+          <!-- Order Details -->
+          <div class="col-md-6 mb-4">
+              <h4>Detail Pesanan</h4>
+              <div class="card">
+                  <div class="card-body">
+                      <h5>ASUS ROG Laptop</h5>
+                      <p>Harga: Rp 25.000.000</p>
+                      <p>Jumlah: 1</p>
+                      <hr>
+                      <p class="font-weight-bold">Total: Rp 25.000.000</p>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Shipping & Payment Details -->
+          <div class="col-md-6">
+              <!-- Shipping Information -->
+              <h4>Informasi Pengiriman</h4>
+              <form>
+                  <div class="form-group">
+                      <label for="name">Nama Lengkap</label>
+                      <input type="text" class="form-control" id="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="address">Alamat Pengiriman</label>
+                      <textarea class="form-control" id="address" rows="3" required></textarea>
+                  </div>
+                  <div class="form-group">
+                      <label for="city">Kota</label>
+                      <input type="text" class="form-control" id="city" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="zip">Kode Pos</label>
+                      <input type="text" class="form-control" id="zip" required>
+                  </div>
+                  
+                  <!-- Payment Method -->
+                  <h4>Metode Pembayaran</h4>
+                  <div class="form-group">
+                      <select class="form-control" id="paymentMethod" required>
+                          <option value="">Pilih Metode Pembayaran</option>
+                          <option value="credit_card">Kartu Kredit</option>
+                          <option value="bank_transfer">Transfer Bank</option>
+                          <option value="cod">Bayar di Tempat</option>
+                      </select>
+                  </div>
+  
+                  <!-- Confirm Button -->
+                  <button type="submit" class="btn btn-primary btn-block mt-4">Konfirmasi Pembayaran</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>
+
+    

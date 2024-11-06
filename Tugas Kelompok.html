@@ -1,0 +1,374 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/icons/font/bootstrap-icons.min.css" rel="stylesheet">
+  <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+   <div class="container"></div>
+  <section class="top-header py-2 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Nomor Kontak -->
+        <div class="col-md-4 text-left">
+          <div class="contact-number">
+          </div>
+        </div>
+        
+        <!-- Logo Situs -->
+        <div class="col-md-4 text-center">
+            <!-- Logo SVG atau teks logo -->
+            <svg width="300" height="100">
+              <text x="30" y="70" font-size="40" font-family="Arial" font-weight="bold" fill="#000000">ASUS STORE</text>
+            </svg>
+          </a>
+        </div>
+        
+        <!-- Cart, Search, dan Bahasa -->
+        <div class="col-md-4 text-right">
+          <ul class="top-menu list-inline mb-0">
+            
+            <!-- Search Dropdown -->
+            <form class="d-flex mt-3 mt-lg-0" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+            <!-- Pilihan Bahasa -->
+            <li class="list-inline-item">
+              <select class="form-control form-control-sm">
+                <option>EN</option>
+                <option>DE</option>
+                <option>FR</option>
+                <option>ES</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto text-center">
+
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link" href="Tugas Kelompok.html">Home</a>
+        </li>
+
+        <!-- Shop Dropdown -->
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Shop
+          </button>
+          <ul class="dropdown-menu" >
+            <li><a class="dropdown-item" href="shop.html">Shop</a>
+            <li><a class="dropdown-item" href="konfirmasi.html">Confirmation</a>
+              <li><a class="dropdown-item" href="checkout.html">Checkout</a>
+              <li><a class="dropdown-item" href="keranjang.html">Cart</a>
+              <li><a class="dropdown-item" href="pricing.html">Pricing</a>
+          </ul>
+        </div>
+
+        <!-- Pages Dropdown -->
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages
+          </button>
+          <ul class="dropdown-menu" >
+            <li><a class="dropdown-item" href="Kontakasus.html">contact Us</a>
+            <li><a class="dropdown-item" href="myaccout.html">My Account</a>
+              <li><a class="dropdown-item" href="login.html">Login Pages</a>
+              <li><a class="dropdown-item" href="produkbaru.html">New Product</a>
+              <li><a class="dropdown-item" href="diskon.html">Diskon & Promo</a>
+          </ul>
+        </div>
+
+        <!-- Blog -->
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+
+        <!-- ketegory -->
+        <li class="nav-item">
+          <a class="nav-link" href="#kategori-list">Category</a>
+        </li>
+  </nav>
+
+
+
+  
+  <!-- Gambar Carousel -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active" >
+        <img src="assets/kelompok/asus.jpg" class="d-block w-100 h-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/kelompok/asus2.jpg" class="d-block w-100 h-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/kelompok/asus3.jpg" class="d-block w-100 h-50" alt="...">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+
+
+<!-- pilihan -->
+<div class="container marketing">
+  <!-- START THE FEATURETTES -->
+  <div id="kategori-list" class="container my-5">
+    <h2 class="text-center mb-4">Product Category</h2>
+    <div class="row">
+      
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">ZenBook Series </h2>
+      <p class="lead">High-performance, ultrathin laptops designed for professionals and creatives.
+         Known for sleek design, high-quality displays, and strong performance.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="assets/kelompok/zen.jpg" width="400" height="300" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">VivoBook Series</h2>
+      <p class="lead">More budget-friendly, these are ideal for everyday use and students. They offer good value with a balance of performance, portability, and style.
+      </p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img src="assets/kelompok/asus2.jpg" width="400" height="300" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">ROG (Republic of Gamers) Series</h2>
+      <p class="lead">High-performance gaming laptops designed for gamers and power users. Known for powerful graphics, high-refresh-rate displays, and unique cooling systems.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="assets/kelompok/rog.jpg" width="400" height="300" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+    </div>
+  </div>
+  <hr class="featurette-divider">
+  <!-- /END THE FEATURETTES -->
+</div>
+
+<!-- trendy products -->
+<div class="title text-center">
+  <h2>Trendy Products</h2>
+</div>
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+  </div> 
+</div> 
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/t1.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text">ROG Strix G16 (2024) –This advanced gaming laptop offers an Intel Core i9-14900HX processor, NVIDIA GeForce RTX 4070 graphics, 
+              and a 16-inch QHD+ 240Hz display, delivering excellent performance for high-end gaming/p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/t2.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text">ASUS Zenbook Pro 16X OLED – Designed for creators, this laptop includes a stunning 4K OLED display, Intel Core i9 processor, 
+              NVIDIA GeForce RTX 3060, and an ASUS Dial, giving artists and designers precise control in editing applications​</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/t3.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text"> ROG Zephyrus G14 (2023) – Known for portability and power, this gaming laptop features an AMD Ryzen 9 processor, RTX 4060 graphics,
+               and AniMe Matrix LEDs on the lid for custom designs, making it both functional and stylish</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/t4.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text">TUF Gaming A15 – With AMD Ryzen 7 and up to NVIDIA GeForce RTX 3070, this durable laptop combines performance with a budget-friendly
+               price, perfect for gamers seeking value</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/t5.png" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text">ASUS ROG Ally – A handheld gaming device featuring Windows 11, allowing for PC-quality gaming on the go. It has garnered popularity for its performance, versatility, and game compatibility</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/t6.webp" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text">ProArt Studiobook 16 – This creator-centric laptop features a 16-inch OLED display, NVIDIA GeForce RTX graphics, and an AMD Ryzen processor, tailored for video editing and graphic design​</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/t7.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text">ROG Ranger BP2701 Backpack – A popular accessory, this 22-liter backpack is designed for gamers and professionals, with space for a 17-inch laptop and numerous compartments for accessories​</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/t8.png" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text">ASUS ProArt Mouse MD300 – A high-precision, customizable mouse that integrates with ASUS Dial for creators, making it a favorite among digital artists and designers</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="assets/kelompok/1.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text">ASUS Zenbook Pro 16X OLED – Designed for creators, this laptop includes a stunning 4K OLED display, 
+              Intel Core i9 processor, NVIDIA GeForce RTX 3060, and an ASUS Dial. this labtop includes</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="text-white" style="background-color: #333;">
+  <div class="container py-4">
+      <div class="row">
+          <!-- Tentang Kami -->
+          <div class="col-md-4 mb-4">
+              <h5 class="text-uppercase mb-3">About Us</h5>
+              <p>AsusStore is a leading online store that offers a variety of high-quality laptops at affordable prices. We are committed to providing the best shopping experience for our customers.</p>
+          </div>
+          <!-- Link Cepat -->
+          <div class="col-md-4 mb-4">
+              <h5 class="text-uppercase mb-3">Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white text-decoration-none">Home page</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">Product</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                  <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+              </ul>
+          </div>
+          <!-- Hubungi Kami -->
+          <div class="col-md-4 mb-4">
+              <h5 class="text-uppercase mb-3">Contact Us</h5>
+              <p><i class="ion-ios-email-outline"></i> Email: support@asusstore.com</p>
+              <p><i class="ion-ios-telephone-outline"></i> Telepon: (123) 456-7890</p>
+              <div class="d-flex">
+                  <a href="#" class="text-white me-3"><i class="ion-social-facebook"></i></a>
+                  <a href="#" class="text-white me-3"><i class="ion-social-twitter"></i></a>
+                  <a href="#" class="text-white"><i class="ion-social-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+      <hr class="bg-white">
+      <div class="text-center py-3">
+          <p>&copy; 2024 AsusStore. All rights reserved.</p>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>
+  
+
+  
+  
